@@ -1,0 +1,167 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JPY FX Strategy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      color: #222;
+    }
+    header {
+      background: #0b0c10;
+      color: #66fcf1;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background: #1f2833;
+      padding: 0.5rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #c5c6c7;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: #66fcf1;
+    }
+    section {
+      padding: 2rem;
+      background: white;
+      margin: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #0b0c10;
+    }
+    footer {
+      background: #1f2833;
+      color: #c5c6c7;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    th, td {
+      padding: 0.5rem;
+      text-align: left;
+      border: 1px solid #ddd;
+    }
+    th {
+      background-color: #1f2833;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>  <header>
+    <h1>JPY FX Strategy Hub</h1>
+    <p>Your trusted daily source for CAD/JPY, USD/JPY, and GBP/JPY strategies</p>
+  </header>  <nav>
+    <a href="#cadjpy">CAD/JPY</a>
+    <a href="#usdjpy">USD/JPY</a>
+    <a href="#gbpjpy">GBP/JPY</a>
+    <a href="#news">News</a>
+    <a href="#analysis">Technical Analysis</a>
+    <a href="#tools">Chart Tools</a>
+    <a href="#sessions">Sessions</a>
+  </nav>  <section id="cadjpy">
+    <h2>CAD/JPY Outlook</h2>
+    <p>Daily bias, key levels, and trade setups updated at 7:00 AM EAT. Focus on oil correlation, Canadian CPI, and BoJ policy tone.</p>
+    <ul>
+      <li><strong>Current Bias:</strong> Bullish above 108.000</li>
+      <li><strong>Resistance:</strong> 108.500 / 109.000</li>
+      <li><strong>Support:</strong> 107.500 / 107.000</li>
+    </ul>
+  </section>  <section id="usdjpy">
+    <h2>USD/JPY Outlook</h2>
+    <p>Monetary divergence outlook, NFP prep, and USD strength momentum levels. Watch US inflation releases and Fed meetings.</p>
+    <ul>
+      <li><strong>Current Bias:</strong> Sideways within 157.100–158.000</li>
+      <li><strong>Resistance:</strong> 158.200</li>
+      <li><strong>Support:</strong> 157.000</li>
+    </ul>
+  </section>  <section id="gbpjpy">
+    <h2>GBP/JPY Outlook</h2>
+    <p>Technical pressure zones and BoE tone vs. BoJ dovishness. Volatility spikes around UK CPI and BoE rate decisions.</p>
+    <ul>
+      <li><strong>Current Bias:</strong> Bearish below 204.000</li>
+      <li><strong>Resistance:</strong> 204.200</li>
+      <li><strong>Support:</strong> 202.500</li>
+    </ul>
+  </section>  <section id="news">
+    <h2>Latest Forex News</h2>
+    <ul>
+      <li>🔴 <strong>BoJ Meeting – July 31, 2025:</strong> No rate change, yen weakens</li>
+      <li>🟠 <strong>Canada CPI:</strong> Slight miss fuels CAD weakness</li>
+      <li>🟢 <strong>US NFP:</strong> Anticipated Friday – traders cautious</li>
+    </ul>
+  </section>  <section id="analysis">
+    <h2>Technical Analysis & Trade Ideas</h2>
+    <p>Multi-timeframe chart breakdowns and confluences.</p>
+    <ul>
+      <li>🟢 <strong>CAD/JPY:</strong> Long above 108.000 – Target 108.500</li>
+      <li>🔴 <strong>USD/JPY:</strong> Short below 157.800 – Target 157.100</li>
+    </ul>
+  </section>  <section id="tools">
+    <h2>Chart Tools & Indicators</h2>
+    <ul>
+      <li>📉 <a href="https://www.tradingview.com/chart/" target="_blank">Live TradingView Charts</a></li>
+      <li>📊 <a href="https://www.forexfactory.com/calendar" target="_blank">Economic Calendar</a></li>
+      <li>📎 <a href="#">Download MT4 Template (Coming Soon)</a></li>
+    </ul>
+    <h3>Embedded TradingView Chart:</h3>
+    <iframe src="https://www.tradingview.com/embed-widget/ticker-tape/?locale=en#symbol=FX:CADJPY"></iframe>
+  </section>  <section id="sessions">
+    <h2>Forex Trading Sessions</h2>
+    <p>Understand session overlaps and peak volatility periods for JPY pairs:</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Session</th>
+          <th>Time (GMT)</th>
+          <th>Best for</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Tokyo</td>
+          <td>00:00 – 09:00</td>
+          <td>JPY volatility (early moves)</td>
+        </tr>
+        <tr>
+          <td>London</td>
+          <td>07:00 – 16:00</td>
+          <td>GBP/JPY momentum</td>
+        </tr>
+        <tr>
+          <td>New York</td>
+          <td>12:00 – 21:00</td>
+          <td>USD/JPY major volume</td>
+        </tr>
+        <tr>
+          <td>London–NY Overlap</td>
+          <td>12:00 – 16:00</td>
+          <td>All JPY pairs – max volatility</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>  <footer>
+    <p>© 2025 JPY FX Strategy • Built by Chris | All rights reserved.</p>
+  </footer></body>
+</html>
